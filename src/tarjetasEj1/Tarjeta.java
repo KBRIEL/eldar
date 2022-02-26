@@ -29,9 +29,7 @@ public class Tarjeta {
 		return "tarjeta tipo: " + this.marca + ", " +" nombre: "+ this.cardholder+ ", " +"tarjeta numero: "+ this.numeroDeTarjeta+ ", " + " vencimiento: "+ this.fechaDeVencimiento; 
 	}
 	
-//	public double costoDelPago(double montoAPagar) {
-//		return montoAPagar;
-//	}
+
 	
 	public LocalDate vencimiento() {
 		return this.fechaDeVencimiento;
