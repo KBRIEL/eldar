@@ -7,6 +7,8 @@ ejercicio 2
 
 en la direccion
     http://localhost:8080/getTasa
+    o
+    https://eldar-api.herokuapp.com/getTasa
 
 le pasamos un json con marca e importa ejemplo:
     {
@@ -19,3 +21,4 @@ le pasamos un json con marca e importa ejemplo:
  {
     "tasa": 1070.0
 }
+el resultado es el importe aplicandole la tasa
